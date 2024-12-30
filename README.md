@@ -31,7 +31,3 @@ A simple console-based Rock Paper Scissors game played against the computer.
 
 - Each win earns 1 point.
 - The player with the most points after 5 rounds wins the game.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
