@@ -35,10 +35,10 @@ function playRound(humanChoice, computerChoice) {
     (humanChoice === "paper" && computerChoice === "rock") ||
     (humanChoice === "scissors" && computerChoice === "paper")
   ) {
-    alert("You win!");
+    alert("You win the round!");
     humanScore++;
   } else {
-    alert("You lose!");
+    alert("You lose the round!");
     computerScore++;
   }
 }
