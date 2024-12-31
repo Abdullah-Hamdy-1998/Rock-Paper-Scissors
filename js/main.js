@@ -42,3 +42,14 @@ function playRound(humanChoice, computerChoice) {
     computerScore++;
   }
 }
+
+function playGame() {
+  for (let i = 0; i < 5; i++) {
+    let humanChoice = getHumanChoice();
+    let computerChoice = getComputerChoice();
+    alert(`Computer chose ${computerChoice}`);
+    alert(playRound(humanChoice, computerChoice));
+  }
+  alert(`Human score: ${humanScore}, Computer score: ${computerScore}`);
+}
+
