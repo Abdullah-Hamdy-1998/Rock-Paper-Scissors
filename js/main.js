@@ -29,7 +29,7 @@ function getHumanChoice() {
 
 function playRound(humanChoice, computerChoice) {
   if (humanChoice === computerChoice) {
-    return "It's a tie!";
+    alert("It's a tie!");
   } else if (
     (humanChoice === "rock" && computerChoice === "scissors") ||
     (humanChoice === "paper" && computerChoice === "rock") ||
@@ -60,7 +60,7 @@ function determineWinner() {
   } else if (humanScore < computerScore) {
     alert("You lose the game!");
   } else {
-    alert("It's a tie!");
+    alert("It's a tie game!");
   }
 }
 
