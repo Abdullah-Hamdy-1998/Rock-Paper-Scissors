@@ -53,3 +53,13 @@ function playGame() {
   alert(`Human score: ${humanScore}, Computer score: ${computerScore}`);
 }
 
+function determineWinner() {
+  if (humanScore > computerScore) {
+    alert("You win the game!");
+  } else if (humanScore < computerScore) {
+    alert("You lose the game!");
+  } else {
+    alert("It's a tie!");
+  }
+}
+
