@@ -64,5 +64,7 @@ function determineWinner() {
   }
 }
 
+playGame();
+
 
 
