@@ -49,8 +49,8 @@ function playGame() {
     let computerChoice = getComputerChoice();
     alert(`Computer chose ${computerChoice}`);
     playRound(humanChoice, computerChoice);
+    alert(`Human score: ${humanScore}, Computer score: ${computerScore}`);
   }
-  alert(`Human score: ${humanScore}, Computer score: ${computerScore}`);
   determineWinner();
 }
 
