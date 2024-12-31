@@ -51,6 +51,7 @@ function playGame() {
     alert(playRound(humanChoice, computerChoice));
   }
   alert(`Human score: ${humanScore}, Computer score: ${computerScore}`);
+  determineWinner();
 }
 
 function determineWinner() {
@@ -62,4 +63,6 @@ function determineWinner() {
     alert("It's a tie!");
   }
 }
+
+
 
